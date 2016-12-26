@@ -1,0 +1,2 @@
+language: generic
+script: find . -type f | grep -o '\.[^./]*$' | sort -u
